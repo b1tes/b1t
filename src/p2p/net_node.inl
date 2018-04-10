@@ -266,8 +266,8 @@ namespace nodetool
   template<class t_payload_net_handler>
   bool node_server<t_payload_net_handler>::init(const boost::program_options::variables_map& vm)
   {
-    ADD_HARDCODED_SEED_NODE("18.221.94.119:50805");
-    ADD_HARDCODED_SEED_NODE("34.238.98.221:50805");
+    ADD_HARDCODED_SEED_NODE("138.68.115.86:50805");
+    ADD_HARDCODED_SEED_NODE("174.138.127.35:50805");
     ADD_HARDCODED_SEED_NODE("23.94.223.107:50805");
 
     bool res = handle_command_line(vm);
